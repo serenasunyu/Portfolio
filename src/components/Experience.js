@@ -19,8 +19,9 @@ const Details = ({position, company, companyLink, time, address, work}) => {
                 transition={{duration:0.5, type:"spring"}}
             >
 
-                <h3 className='mb-4 capitalize font-bold text-2xl'>{position}&nbsp;<a href={companyLink} target='_blank' className='text-primary capitalize'>@{company}</a></h3>
-                <span className='capitalize font-medium text-dark/75'>
+                <h3 className='mb-4 capitalize font-bold text-2xl'>{position}&nbsp;
+                <a href={companyLink} target='_blank' className='text-primary dark:text-primaryDark capitalize'>@{company}</a></h3>
+                <span className='capitalize font-medium text-dark/75 dark:text-light/75'>
                     {time} | {address}
                 </span>
                 <ul className='mt-4 font-medium w-full'>
@@ -43,7 +44,7 @@ const Experience = () => {
             Experience
         </h2>
         <div ref={ref} className='w-[65%] mx-auto relative'>
-            <motion.div style={{scale: scrollYProgress}} className='absolute left-6 top-0 w-[4px] h-full bg-dark origin-top' />
+            <motion.div style={{scale: scrollYProgress}} className='absolute left-6 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light' />
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
                 <Details 
                 position="Customer Service Manager" 

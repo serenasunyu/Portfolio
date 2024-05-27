@@ -64,7 +64,7 @@ const NavBar = () => {
                 <LinkedInIcon />
             </motion.a>
             <motion.a href="https://twitter.com" target={"_blank"}
-                className='w-6 mx-3'
+                className='w-6 mx-3 bg-light rounded-full'
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}
             >
