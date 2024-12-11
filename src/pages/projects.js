@@ -4,9 +4,12 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { GithubIcon } from '@/components/Icons';
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/Yu'sBlog.png";
+import project2 from "../../public/images/projects/BandSite.png";
+import project3 from "../../public/images/projects/TravelSite.png";
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import TransitionEffect from '@/components/TransitionEffect';
 
 
 const FramerImage = motion(Image);
@@ -104,51 +107,87 @@ const projects = () => {
             <title>Yu Sun | Projects Page</title>
             <meta name="description" content="any description" />
         </Head>
+
+        <TransitionEffect />
+
         <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
-                <AnimatedText text="Imagination Trumps Knowledge!" 
-                className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'
+                <AnimatedText text="Projects" 
+                className='mb-16 lg:!text-6xl sm:mb-8 sm:!text-6xl xs:!text-4xl'
                 />
 
                 <div className='grid grid-col-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                     <div className='col-span-12'>
                         <FeaturedProject 
-                            title="Crypto Screener Application"
+                            title="Coin Tracker"
                             img={project1}
-                            summary="texttextetetegegdvyutafedgafv"
-                            link="/"
-                            github="/"
-                            type="Featured Project"
+                            summary="A responsive blog application built with the MERN stack (MongoDB, Express, React, Node.js). 
+                            This project features secure user authentication with JSON Web Tokens and Google OAuth, a protected admin dashboard for managing posts,
+                             comments, and users, and a user-friendly dark mode. Advanced search functionality allows users to search, filter, and sort posts. 
+                             The interactive comment system enables users to leave, edit, and delete comments, fostering community engagement. 
+                             The application is designed for seamless performance across devices."
+                            link="https://mearn-blog-u807.onrender.com"
+                            github="https://github.com/serenasunyu/mearnBlog"
+                            type="Academic Projects"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                                title="Crypto Screener Application"
-                                img={project1}
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="BandSite"
+                                img={project2}
+                                summary="A responsive website for a fictional band, demonstrating skills in Flexbox, SASS, and BEM methodology for clean, scalable styling. 
+                                The site integrates with external APIs to display dynamic content and is fully responsive."
+                                link="https://bandsiteproject-663gdu2zo-serenasunyus-projects.vercel.app/"
+                                github="https://github.com/serenasunyu/BandSite-Project"
+                                type="Bootcamp Project"
                             />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                                title="Crypto Screener Application"
-                                img={project1}
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="TravelSite"
+                                img={project3}
+                                summary="This project focused on building a responsive travel-themed website using HTML and CSS. The project emphasized core web development principles, with a focus on layout design, styling, and responsive techniques."
+                                link="https://travelsiteproject-qpeaotjht-serenasunyus-projects.vercel.app/"
+                                github="https://github.com/serenasunyu/Travel-Site-Project"
+                                type="Bootcamp Project"
+                            />
+                    </div>
+
+                    <div className='col-span-6 sm:col-span-12'>
+                        <Project 
+                                title="BrainFlix"
+                                img={project2}
+                                summary="A responsive website for a fictional band, demonstrating skills in Flexbox, SASS, and BEM methodology for clean, scalable styling. 
+                                The site integrates with external APIs to display dynamic content and is fully responsive."
+                                link="https://bandsiteproject-663gdu2zo-serenasunyus-projects.vercel.app/"
+                                github="https://github.com/serenasunyu/BandSite-Project"
+                                type="Bootcamp Project"
+                            />
+                    </div>
+                    <div className='col-span-6 sm:col-span-12'>
+                        <Project 
+                                title="Instock"
+                                img={project3}
+                                summary="This project focused on building a responsive travel-themed website using HTML and CSS. The project emphasized core web development principles, with a focus on layout design, styling, and responsive techniques."
+                                link="https://travelsiteproject-qpeaotjht-serenasunyus-projects.vercel.app/"
+                                github="https://github.com/serenasunyu/Travel-Site-Project"
+                                type="Bootcamp Project"
                             />
                     </div>
 
                     <div className='col-span-12'>
                         <FeaturedProject 
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="texttextetetegegdvyutafedgafv"
-                                link="/"
-                                github="/"
-                                type="Featured Project"
-                            />
+                            title="Full Stack MERN Blog"
+                            img={project1}
+                            summary="A responsive blog application built with the MERN stack (MongoDB, Express, React, Node.js). 
+                            This project features secure user authentication with JSON Web Tokens and Google OAuth, a protected admin dashboard for managing posts,
+                             comments, and users, and a user-friendly dark mode. Advanced search functionality allows users to search, filter, and sort posts. 
+                             The interactive comment system enables users to leave, edit, and delete comments, fostering community engagement. 
+                             The application is designed for seamless performance across devices."
+                            link="https://mearn-blog-u807.onrender.com"
+                            github="https://github.com/serenasunyu/mearnBlog"
+                            type="MERN Project"
+                        />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 

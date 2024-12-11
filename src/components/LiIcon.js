@@ -5,7 +5,7 @@ const LiIcon = ({reference}) => {
 
     const {scrollYProgress} = useScroll({
         target: reference,
-        offset: ["center end", "center center"]
+        offset: ["start end", "end end"]
     });
   return (
     <figure className='absolute left-0 stroke-dark dark:stroke-light'>

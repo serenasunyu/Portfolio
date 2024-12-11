@@ -11,6 +11,7 @@ import article3 from "../../public/images/articles/create modal component in rea
 import { useRef } from 'react';
 import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
+import TransitionEffect from '@/components/TransitionEffect';
 
 
 const FramerImage = motion(Image);
@@ -103,10 +104,12 @@ const articles = () => {
             <meta name="description" content="any description" />
         </Head>
 
+        <TransitionEffect />
+
         <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
             <Layout className='pt-16'>
-                <AnimatedText text="Words Can Change The World!" className='mb-16
-                    lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl
+                <AnimatedText text="Articles" className='mb-16
+                    lg:!text-6xl sm:mb-8 sm:!text-6xl xs:!text-4xl
                 ' />
                 <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
                     <FeaturedArticles 
