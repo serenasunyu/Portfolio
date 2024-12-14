@@ -7,6 +7,11 @@ import { GithubIcon } from '@/components/Icons';
 import project1 from "../../public/images/projects/Yu'sBlog.png";
 import project2 from "../../public/images/projects/BandSite.png";
 import project3 from "../../public/images/projects/TravelSite.png";
+import coinTracker from "../../public/images/projects/coin-tracker.png";
+import inStock from "../../public/images/projects/inStock.png";
+import brainFlix from "../../public/images/projects/brainFlix.png";
+import sendMe from "../../public/images/projects/sendMe.png";
+import jsProjects from "../../public/images/projects/jsProjects.png";
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
@@ -120,14 +125,12 @@ const projects = () => {
                     <div className='col-span-12'>
                         <FeaturedProject 
                             title="Coin Tracker"
-                            img={project1}
-                            summary="A responsive blog application built with the MERN stack (MongoDB, Express, React, Node.js). 
-                            This project features secure user authentication with JSON Web Tokens and Google OAuth, a protected admin dashboard for managing posts,
-                             comments, and users, and a user-friendly dark mode. Advanced search functionality allows users to search, filter, and sort posts. 
-                             The interactive comment system enables users to leave, edit, and delete comments, fostering community engagement. 
-                             The application is designed for seamless performance across devices."
-                            link="https://mearn-blog-u807.onrender.com"
-                            github="https://github.com/serenasunyu/mearnBlog"
+                            img={coinTracker}
+                            summary="A Full-Stack Financial Dashboard Application built with React, Node.js, and MySQL, featuring JWT authentication for secure access and personalized data management. 
+                            The app delivers a seamless user experience with React Router for navigation, Axios for efficient API communication, and a responsive interface styled with Tailwind CSS. 
+                            It incorporates Chart.js for dynamic data visualization, enabling users to make informed financial decisions, and leverages a robust MySQL backend for scalable and reliable data storage."
+                            link="https://github.com/serenasunyu/CoinTrack"
+                            github="https://github.com/serenasunyu/CoinTrack"
                             type="Academic Projects"
                         />
                     </div>
@@ -156,21 +159,22 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
                                 title="BrainFlix"
-                                img={project2}
-                                summary="A responsive website for a fictional band, demonstrating skills in Flexbox, SASS, and BEM methodology for clean, scalable styling. 
-                                The site integrates with external APIs to display dynamic content and is fully responsive."
-                                link="https://bandsiteproject-663gdu2zo-serenasunyus-projects.vercel.app/"
-                                github="https://github.com/serenasunyu/BandSite-Project"
+                                img={brainFlix}
+                                summary="Developed a React single-page application with react-router for multi-page functionality. Transitioned from a mock API to an actual backend, implementing GET, POST endpoints for video data, including video lists and detailed views.
+                                 Utilized NPM for managing dependencies and JavaScript libraries."
+                                link="https://yu-sun-brainflix.vercel.app"
+                                github="https://github.com/serenasunyu/yu-sun-brainflix"
                                 type="Bootcamp Project"
                             />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
                                 title="Instock"
-                                img={project3}
-                                summary="This project focused on building a responsive travel-themed website using HTML and CSS. The project emphasized core web development principles, with a focus on layout design, styling, and responsive techniques."
-                                link="https://travelsiteproject-qpeaotjht-serenasunyus-projects.vercel.app/"
-                                github="https://github.com/serenasunyu/Travel-Site-Project"
+                                img={inStock}
+                                summary="Built with React.js, Node.js, and MySQL, this web application streamlines warehouse and inventory management through a responsive and intuitive user interface. It features RESTful APIs for seamless CRUD operations with robust form validation, ensuring data integrity. 
+                                The application leverages Knex for efficient database management and Jira for effective team collaboration."
+                                link="https://instock-xi.vercel.app"
+                                github="https://github.com/serenasunyu/instock"
                                 type="Bootcamp Project"
                             />
                     </div>
@@ -191,20 +195,25 @@ const projects = () => {
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                                title="Crypto Screener Application"
-                                img={project1}
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="SendMe"
+                                img={sendMe}
+                                link="https://github.com/serenasunyu/SendMe"
+                                github="https://github.com/serenasunyu/SendMe"
+                                type="C# and Typescript Project"
+                                summary="Developed a full-stack application enabling users to upload, view, and download images and other media files. Built the frontend with React and TypeScript, featuring a responsive interface for seamless file management. The backend, developed in .NET, ensures secure and efficient media storage, retrieval, and handling."
                             />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                                title="Crypto Screener Application"
-                                img={project1}
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="100-JavaScript-Projects"
+                                img={jsProjects}
+                                link="https://github.com/serenasunyu/100-JavaScript-Projects"
+                                github="https://github.com/serenasunyu/100-JavaScript-Projects"
+                                type="JavaScript Projects"
+                                summary="This GitHub folder contains a collection of 100 ongoing JavaScript projects designed to enhance and practice core JavaScript skills. 
+                                Each project is focused on improving various aspects of JavaScript, from basic syntax and algorithms to advanced topics like DOM manipulation, APIs, and asynchronous programming. 
+                                Through these projects, I am actively working to deepen my understanding of JavaScript concepts and refine my skills. By building solutions for real-world challenges, 
+                                I am progressively strengthening my problem-solving abilities and gaining hands-on experience, which will help me become more proficient in JavaScript development."
                             />
                     </div>
                 </div>

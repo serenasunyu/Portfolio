@@ -3,7 +3,7 @@ import Head from 'next/head';
 import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout';
 import Link from 'next/link';
-import tweetSuicideDetection from "../../public/images/articles/tweet-suicide-detection.png";
+// import tweetSuicideDetection from "../../public/images/articles/tweet-suicide-detection.png";
 import Image from 'next/image';
 import article2 from "../../public/images/articles/create loading screen in react js.jpg";
 import { motion, useMotionValue } from 'framer-motion';
@@ -11,6 +11,8 @@ import article3 from "../../public/images/articles/create modal component in rea
 import { useRef } from 'react';
 import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
+import Redux from "../../public/images/articles/What is Redux with easy explanation.png";
+import article6 from "../../public/images/articles/What is higher order component in React.jpg";
 import TransitionEffect from '@/components/TransitionEffect';
 
 
@@ -113,53 +115,48 @@ const articles = () => {
                 ' />
                 <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
                     <FeaturedArticles 
-                        title="Leveraging Natural Language Processing for Suicidal Tweet Detection"
-                        summary="Implemented Logistic Regression and NLTK sentiment analysis. 
-                        Utilized Tfidf Vectorizer and TF-IDF for efficient textual data processing and feature extraction. 
-                        Demonstrated expertise in the Sklearn for machine learning implementation. 
-
-                        Developed a high-accuracy suicide ideation detection model, achieving 93% accuracy."
+                        title="Form Validation In Reactjs: Build A Resuable Custom Hook For Inputs and Error Handling"
+                        summary="Form validation is a critical part of web applications. It ensures data integrity and enhances user experience by providing immediate feedback. 
+                        React, with its component-based architecture, makes it easy to create reusable logic, and in this article, we'll build a custom hook for form validation and error handling."
                         time="10 mins read"
                         link="https://medium.com/p/4114c10f7432/edit"
-                        img={tweetSuicideDetection}
+                        img={article4}
                     />
                     <FeaturedArticles 
-                        title="Leveraging Natural Language Processing for Suicidal Tweet Detection"
-                        summary="Implemented Logistic Regression and NLTK sentiment analysis. 
-                        Utilized Tfidf Vectorizer and TF-IDF for efficient textual data processing and feature extraction. 
-                        Demonstrated expertise in the Sklearn for machine learning implementation. 
-                        Developed a high-accuracy suicide ideation detection model, achieving 93% accuracy."
-                        time="10 mins read"
+                        title="Create a Loading Screen in React.js"
+                        summary="Loading screens are an essential part of any application that fetches data from external sources or performs time-consuming tasks. 
+                        They provide users with a visual cue that something is happening in the background, improving the user experience (UX). In this article, we’ll walk through how to create a simple, reusable loading screen in React.js."
                         link="https://medium.com/p/4114c10f7432/edit"
                         img={article2}
+                        time="15 mins read"
                     />
                 </ul>
                 <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">All Articles</h2>
                 <ul>
                     <Article 
-                        title="Form Validation In Reactjs: Build A Resuable Custom Hook For Inputs and Error Handling"
-                        date="March 23, 2024"
+                        title="What is Higher Order Component in React"
+                        date="September 23, 2024"
                         link="/"
-                        img={article3}
+                        img={article6}
                     
                     />
                     <Article 
-                        title="Form Validation In Reactjs: Build A Resuable Custom Hook For Inputs and Error Handling"
-                        date="March 23, 2024"
+                        title="What is Redux with Easy Explanation"
+                        date="September 26, 2024"
                         link="/"
-                        img={article4}
+                        img={Redux}
                     
                     />
                     <Article 
-                        title="Form Validation In Reactjs: Build A Resuable Custom Hook For Inputs and Error Handling"
-                        date="March 23, 2024"
+                        title="Smooth Scrolling in Reactjs"
+                        date="October 2, 2024"
                         link="/"
                         img={article5}
                     
                     />
                     <Article 
-                        title="Form Validation In Reactjs: Build A Resuable Custom Hook For Inputs and Error Handling"
-                        date="March 23, 2024"
+                        title="Create Modal Component in React Using React Portals"
+                        date="October 23, 2024"
                         link="/"
                         img={article3}
                     

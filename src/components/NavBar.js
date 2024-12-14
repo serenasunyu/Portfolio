@@ -82,35 +82,35 @@ const NavBar = () => {
                 <CustomLink href="/articles" title="Articles" className='ml-4' />
             </nav>
             <nav className='flex items-center justify-center flex-wrap'>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://x.com/yu03361217" target={"_blank"}
                     className='w-6 mr-3'
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}}
                 >
                     <TwitterIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://github.com/serenasunyu" target={"_blank"}
                     className='w-6 mx-3'
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}}
                 >
                     <GithubIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://www.linkedin.com/in/serenasunyu" target={"_blank"}
                     className='w-6 mx-3'
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}}
                 >
                     <LinkedInIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://ca.pinterest.com/2011sunyu" target={"_blank"}
                     className='w-6 mx-3 bg-light rounded-full'
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}}
                 >
                     <PinterestIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://dribbble.com/SerenaaaYa" target={"_blank"}
                     className='w-6 ml-3'
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}}
@@ -147,35 +147,35 @@ const NavBar = () => {
                 <CustomMobileLink href="/articles" title="Articles" className='' toggle={handleClick} />
             </nav>
             <nav className='flex items-center justify-center flex-wrap mt-2'>
-                <motion.a href="https://twitter.com" target={"_blank"} toggle={handleClick}
+                <motion.a href="https://x.com/yu03361217" target={"_blank"} toggle={handleClick}
                     className='w-6 mr-3 sm:mx-1'
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}}
                 >
                     <TwitterIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://github.com/serenasunyu" target={"_blank"}
                     className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}}
                 >
                     <GithubIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://www.linkedin.com/in/serenasunyu" target={"_blank"}
                     className='w-6 mx-3 sm:mx-1'
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}}
                 >
                     <LinkedInIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://ca.pinterest.com/2011sunyu" target={"_blank"}
                     className='w-6 mx-3 bg-light rounded-full sm:mx-1'
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}}
                 >
                     <PinterestIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://dribbble.com/SerenaaaYa" target={"_blank"}
                     className='w-6 ml-3 sm:mx-1'
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}}
